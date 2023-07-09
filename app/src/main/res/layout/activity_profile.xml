@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Profile">
+
+  <ImageView
+      android:id="@+id/ppnh"
+      android:layout_width="45dp"
+      android:layout_height="45dp"
+      android:layout_marginLeft="20dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="50dp"
+      android:src="@drawable/back" />
+
+  <TextView
+      android:id="@+id/profile"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginLeft="21dp"
+      android:layout_marginTop="25dp"
+      android:layout_marginRight="200dp"
+      android:layout_marginBottom="20dp"
+      android:fontFamily="@font/robotoblack"
+      android:text="Profile"
+      android:textColor="@color/green1"
+      android:textSize="30sp" />
+
+  <ImageView
+      android:id="@+id/lg_profile"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/profile"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/userinterface3" />
+
+  <EditText
+      android:id="@+id/k_user"
+      android:layout_width="match_parent"
+      android:layout_height="57dp"
+      android:layout_below="@id/lg_profile"
+      android:layout_marginBottom="60dp"
+      android:hint="Username"
+      android:textSize="20sp"
+      android:textAlignment="center"
+      android:textColor="@color/black"
+      android:enabled="false"
+      android:fontFamily="@font/robotoblack" />
+
+  <Button
+      android:id="@+id/c_pass"
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/k_user"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="10dp"
+      android:background="@drawable/tombol"
+      android:fontFamily="@font/robotoblack"
+      android:text="Change Password"
+      android:textSize="16sp"
+      android:textColorHint="@color/white" />
+
+  <Button
+      android:id="@+id/logout"
+      android:layout_width="250dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/c_pass"
+      android:layout_centerHorizontal="true"
+      android:background="@drawable/tombol"
+      android:fontFamily="@font/robotoblack"
+      android:textSize="16sp"
+      android:text="Log out"
+      android:textColorHint="@color/white" />
+
+</RelativeLayout>

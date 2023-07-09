@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgmain">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="264dp"
+        android:layout_height="329dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/icon2" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kolom"
+        android:hint="Log in"
+        android:textSize="16sp"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:fontFamily="@font/interbold"
+        android:id="@+id/btn"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kolom"
+        android:hint="Sign up"
+        android:textSize="16sp"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/interbold"
+        android:id="@+id/btn2"
+        />
+</RelativeLayout>

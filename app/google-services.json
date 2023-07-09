@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "52534138326",
+    "firebase_url": "https://tugas-akhir-5d947-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tugas-akhir-5d947",
+    "storage_bucket": "tugas-akhir-5d947.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52534138326:android:8a0e6d7fe1903342100077",
+        "android_client_info": {
+          "package_name": "com.example.monitoringcabai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52534138326-0d5lp3pb60l6s46hpmva8p3c68f67q4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monitoringcabai",
+            "certificate_hash": "e00a9bf3619fa3dff71853a2a6f17ee15425eb2b"
+          }
+        },
+        {
+          "client_id": "52534138326-2s5fsm8du8trs9ni6ekls8if16dcgsds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCggnNn4RS-PvuR2RVuRqqau83Duf8D1-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52534138326-2s5fsm8du8trs9ni6ekls8if16dcgsds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52534138326:android:76ed39238f67733e100077",
+        "android_client_info": {
+          "package_name": "com.example.monitoringpnpk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52534138326-2s5fsm8du8trs9ni6ekls8if16dcgsds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCggnNn4RS-PvuR2RVuRqqau83Duf8D1-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52534138326-2s5fsm8du8trs9ni6ekls8if16dcgsds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

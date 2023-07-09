@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/r_pnh"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/back" />
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/robotoblack"
+        android:text="Register"
+        android:textColor="@color/green1"
+        android:textSize="35sp" />
+
+    <LinearLayout
+        android:id="@+id/r_kolom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="75dp"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/rk_name"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/rectanglegreen"
+            android:fontFamily="@font/robotoregular"
+            android:textSize="16sp"
+            android:hint="Enter your full name"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/rk_email"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectanglegreen"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Enter your email"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/rk_pw"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectanglegreen"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Create password"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/togglePasswordcrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/ic_hide_password" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/rk_pww"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectanglegreen"
+            android:fontFamily="@font/robotoregular"
+            android:hint="Confirm password"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/black"
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/togglePasswordcop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="35dp"
+            android:src="@drawable/ic_hide_password" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/r_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r_kolom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/tombol"
+        android:fontFamily="@font/robotoblack"
+        android:hint="Sign Up"
+        android:textColorHint="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/r_btn"
+        android:gravity="center"
+        android:layout_marginTop="13dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:fontFamily="@font/robotomedium"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/r_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/robotobold"
+            android:text=" Sign in"
+            android:textColor="@color/green1"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
